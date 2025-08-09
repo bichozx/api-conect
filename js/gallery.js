@@ -3,8 +3,6 @@ import { gallery } from '../services/galleryServices.js';
 const data =await gallery();
 
 
-
-
 function pintarDatos(datos) {
     let fila = document.getElementById("fila");
     fila.innerHTML = ""; 
